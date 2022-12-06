@@ -6,20 +6,51 @@
 //
 
 import Foundation
+import UIKit
 
 class Model {
     
-    class Grid { /*
-        var square1 : UIImageView!
-        var square2 : UIImageView!
-        var square3 : UIImageView!
-        var square4 : UIImageView!
-        var square5 : UIImageView!
-        var square6 : UIImageView!
-        var square7 : UIImageView!
-        var square8 : UIImageView!
-        var square9 : UIImageView!
-    */} 
+    func turnCounter() -> Int {
+        var total = 0
+        total += 1
+        return total
+    }
+    func placeX() -> String {
+        return "X"
+    }
+    func placeO() -> String {
+        return "O"
+    }
+    func whoStarts() -> Int {
+        let numberR = Int.random(in: 1 ..< 3)
+        return numberR
+    }
+    func checkWin() {
+        
+    }
+    
+    class Grid {
+        var square1 : UIButton!
+        var square2 : UIButton!
+        var square3 : UIButton!
+        var square4 : UIButton!
+        var square5 : UIButton!
+        var square6 : UIButton!
+        var square7 : UIButton!
+        var square8 : UIButton!
+        var square9 : UIButton!
+        
+        
+/*
+        
+        func checkTurn() -> Int {
+            var number = 2
+            number % 2
+            return number
+        }
+ */
+    }
+
     class Player {
         let name : String = ""
     }
@@ -27,6 +58,6 @@ class Model {
         let symbol : String = "X"
     }
     class PlayerO : Player {
-        let symbol : String = "X"
+        let symbol : String = "O"
     }
 }

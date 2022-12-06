@@ -21,59 +21,97 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZ7-9A-K0B"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMN-tz-wjb">
                                 <rect key="frame" x="137" y="266" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eun-FC-JHY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLf-ML-02z">
                                 <rect key="frame" x="240" y="266" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kH4-SY-1Ou"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmr-js-8Rj">
                                 <rect key="frame" x="34" y="360" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4t-6Z-rso"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1M-rU-9QC">
                                 <rect key="frame" x="137" y="360" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ea3-J9-Lql"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjb-Z3-eQU">
                                 <rect key="frame" x="240" y="360" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o0t-fw-lGJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax0-GG-yDl">
                                 <rect key="frame" x="34" y="454" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gyk-pZ-rph"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inL-Bb-5ro">
                                 <rect key="frame" x="137" y="454" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyW-WA-BFq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNf-gs-Fkm">
                                 <rect key="frame" x="240" y="454" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled"/>
+                                <connections>
+                                    <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twR-CP-FB3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="square1" destination="P0N-Oh-byQ" id="5Vc-QO-rhw"/>
+                        <outlet property="square2" destination="pMN-tz-wjb" id="27I-uv-HQB"/>
+                        <outlet property="square3" destination="fLf-ML-02z" id="wVa-E1-xFJ"/>
+                        <outlet property="square4" destination="Xmr-js-8Rj" id="3TW-4O-oEF"/>
+                        <outlet property="square5" destination="x1M-rU-9QC" id="eQV-Cy-VVF"/>
+                        <outlet property="square6" destination="zjb-Z3-eQU" id="glq-Xh-tmg"/>
+                        <outlet property="square7" destination="ax0-GG-yDl" id="KXS-G0-ZBW"/>
+                        <outlet property="square8" destination="inL-Bb-5ro" id="yzx-VW-QVo"/>
+                        <outlet property="square9" destination="iNf-gs-Fkm" id="APU-bH-nfa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
