@@ -20,7 +20,9 @@
                                 <rect key="frame" x="34" y="266" width="101" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="pressSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZ7-9A-K0B"/>
                                 </connections>
